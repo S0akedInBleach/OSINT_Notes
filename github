@@ -1,0 +1,29 @@
+#Search github or any other code repositories for these items and potentially profit. Probably a bit noisy for real world, but if you can narrow search by other factors definitely a viable search.
+https://github.com/techgaun/github-dorks
+#    filename:FILENAME
+    language:LANGUAGE
+       Small files often include authentication details
+        size:<1000
+    extension:EXTENSION
+    org:ORGNAME
+    in:file #
+
+#Finding privete RSA Keys
+extension:key BEGIN RSA PRIVATE KEY
+
+#Finding SSH Private keys
+id_rsa
+
+#Finding GNUPG Keys
+gnupg secring.gpg key
+
+#Wide range password or other keyword finding
+$companyname password
+wp-config.php
+filename:firebase.js apiKey
+AWS_KEY
+AWS_API_KEY
+AMAZON_API_KEY
+aws_access_key_id
+aws_secret_access_key
+
